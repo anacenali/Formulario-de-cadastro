@@ -11,11 +11,21 @@
 </head>
 
 <body>
+    <h3>Dados de endereço</h3>
     <div class="container">
             <label for="">Nome:</label><br>
             <input type="text" id="nome" name="nome">
         </form>
         <div id="nome"> </div>
+
+        <div class="container">
+            <form method="post" action=" ">
+                <form action="" id="data">
+                    <label for="">Data de nascimento:</label><br>
+                    <input type="text" id="data" name="data" maxlength="14">
+                </form>
+            </form>
+        </div>
 
     <div class="container">
         <form action="post" name="frmEnvia" onsubmit="return (verifica()) ">
@@ -41,17 +51,10 @@
             </form>
         </div>
 
-        <div class="container">
-            <form method="post" action=" ">
-                <form action="" id="data">
-                    <label for="">Data de nascimento:</label><br>
-                    <input type="text" id="data" name="data" maxlength="14">
-                </form>
-            </form>
-        </div>
+       
 
         <div>
-            <button type="submit" class="btn">Entrar</button>
+           <a href="endereço.html"> <button type="submit" class="btn">Continuar</button></a>
         </div>
 </body>
 
