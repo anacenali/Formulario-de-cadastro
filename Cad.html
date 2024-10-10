@@ -12,34 +12,38 @@
 
 <body>
     <div class="container">
+            <label for="">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </form>
+        <div id="nome"> </div>
+
+    <div class="container">
         <form action="post" name="frmEnvia" onsubmit="return (verifica()) ">
             <label for="">E-mail:</label>
             <input type="text" id="email" name="email" onblur="checarEmail()">
-            </form>
-    <div id="email"> </div>
-    <label for="Senha" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="Senha">
-    <br>
-    <div class="box-lembrar-senha">
-        <a class="link" href="lembrar.html">Esqueceu sua Senha? </a>
-    </div>
-    <div class="container">
-        <form method="post" action=" ">
-            <form action="" id="CPFform">
-                <label for="">CPF:</label>
-                <input type="text" id="CPF" name="CPF" maxlength="14">
-            </form>
-
-            <p id="message"></p>
-
-
-
         </form>
-    </div>
+        <div id="email"> </div>
 
-    <div>
-        <button type="submit" class="btn">Entrar</button>
-    </div>
+        <label for="Senha" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="Senha">
+        <br>
+        <div class="box-lembrar-senha">
+            <a class="link" href="lembrar.html">Esqueceu sua Senha? </a>
+        </div>
+
+        <div class="container">
+            <form method="post" action=" ">
+                <form action="" id="CPFform">
+                    <label for="">CPF:</label>
+                    <input type="text" id="CPF" name="CPF" maxlength="14">
+                </form>
+                <p id="message"></p>
+            </form>
+        </div>
+
+        <div>
+            <button type="submit" class="btn">Entrar</button>
+        </div>
 </body>
 
 </html>
