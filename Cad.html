@@ -12,19 +12,19 @@
 
 <body>
     <div class="container">
-            <label for="">Nome:</label>
+            <label for="">Nome:</label><br>
             <input type="text" id="nome" name="nome">
         </form>
         <div id="nome"> </div>
 
     <div class="container">
         <form action="post" name="frmEnvia" onsubmit="return (verifica()) ">
-            <label for="">E-mail:</label>
+            <label for="">E-mail:</label><br>
             <input type="text" id="email" name="email" onblur="checarEmail()">
         </form>
         <div id="email"> </div>
 
-        <label for="Senha" class="form-label">Senha</label>
+        <label for="Senha" class="form-label">Senha</label><br>
         <input type="password" class="form-control" id="Senha">
         <br>
         <div class="box-lembrar-senha">
@@ -34,10 +34,19 @@
         <div class="container">
             <form method="post" action=" ">
                 <form action="" id="CPFform">
-                    <label for="">CPF:</label>
+                    <label for="">CPF:</label><br>
                     <input type="text" id="CPF" name="CPF" maxlength="14">
                 </form>
                 <p id="message"></p>
+            </form>
+        </div>
+
+        <div class="container">
+            <form method="post" action=" ">
+                <form action="" id="data">
+                    <label for="">Data de nascimento:</label><br>
+                    <input type="text" id="data" name="data" maxlength="14">
+                </form>
             </form>
         </div>
 
